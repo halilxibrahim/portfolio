@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { AiOutlineHome, AiOutlineProject } from 'react-icons/ai';
 import { MdWorkOutline } from 'react-icons/md';
-import { FiTwitter, FiGithub, FiLinkedin, FiInstagram, FiYoutube } from 'react-icons/fi';
+import { FiX, FiGithub, FiLinkedin, FiInstagram, FiYoutube } from 'react-icons/fi';
 import { SiMedium } from 'react-icons/si';
 
 export default function Sidebar() {
@@ -36,10 +36,10 @@ export default function Sidebar() {
           <img
             src="https://media.licdn.com/dms/image/v2/D4D03AQFT3_2ciDLjJA/profile-displayphoto-shrink_800_800/B4DZN85RDIHoAc-/0/1732967207736?e=1743033600&v=beta&t=3sk_wsG_MQtNWw1m5Bd8cmhTfDKS-0TNglfQKfcxk_g"
             alt="Halil ibrahim Kamacı"
-            className="w-20 h-20 rounded-full mb-4 border-2 border-blue-200 p-1"
+            className="w-20 h-20 rounded-full mb-4 p-1"
           />
           <h1 className="text-lg font-semibold text-gray-800">Halil ibrahim Kamacı</h1>
-          <p className="text-sm text-blue-500">Software Developer</p>
+          <p className="text-sm text-black-400">Software Developer</p>
         </div>
 
         {/* Menü */}
@@ -86,7 +86,7 @@ export default function Sidebar() {
 
         {/* Online Linkleri */}
         <div className="border-t border-blue-100 pt-4">
-          <h3 className="text-sm font-semibold mb-2 text-gray-800">Online</h3>
+          <h3 className="text-sm font-semibold mb-2 text-gray-800">Contact</h3>
           <ul className="space-y-1 text-sm">
             <li>
               <a 
@@ -100,7 +100,7 @@ export default function Sidebar() {
             </li>
             <li>
               <a 
-                href="#" 
+                href="https://www.linkedin.com/in/halilxibrahim/" 
                 target="_blank" 
                 rel="noreferrer" 
                 className="flex items-center text-gray-600 hover:text-blue-600 transition-colors duration-300 p-2 rounded-md hover:bg-blue-50"
@@ -110,7 +110,7 @@ export default function Sidebar() {
             </li>
             <li>
               <a 
-                href="#" 
+                href="https://medium.com/@halilxibrahim" 
                 target="_blank" 
                 rel="noreferrer" 
                 className="flex items-center text-gray-600 hover:text-indigo-600 transition-colors duration-300 p-2 rounded-md hover:bg-indigo-50"
@@ -120,17 +120,17 @@ export default function Sidebar() {
             </li>
             <li>
               <a 
-                href="#" 
+                href="https://x.com/halilxibrahim_" 
                 target="_blank" 
                 rel="noreferrer" 
                 className="flex items-center text-gray-600 hover:text-blue-600 transition-colors duration-300 p-2 rounded-md hover:bg-blue-50"
               >
-                <FiTwitter className="mr-2" /> X (Twitter)
+                <FiX className="mr-2" /> X (Twitter)
               </a>
             </li>
             <li>
               <a 
-                href="#" 
+                href="https://www.instagram.com/halil.coding/" 
                 target="_blank" 
                 rel="noreferrer" 
                 className="flex items-center text-gray-600 hover:text-indigo-600 transition-colors duration-300 p-2 rounded-md hover:bg-indigo-50"
@@ -140,7 +140,7 @@ export default function Sidebar() {
             </li>
             <li>
               <a 
-                href="#" 
+                href="https://www.youtube.com/@halilxibrahim" 
                 target="_blank" 
                 rel="noreferrer" 
                 className="flex items-center text-gray-600 hover:text-indigo-600 transition-colors duration-300 p-2 rounded-md hover:bg-indigo-50"
