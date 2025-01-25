@@ -1,0 +1,6 @@
+@import "tailwindcss"; /* Temel stil */
+
+@theme {
+  /* Özel tema değişkenleri */
+  --color-primary: #3b82f6;
+}
