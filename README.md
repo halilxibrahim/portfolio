@@ -1,8 +1,36 @@
-# React + Vite
+# Portfolio Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a personal portfolio project built with React and Vite. It showcases various sections including a hero section, work section, experience, and more.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Hero Section**: Introduction and tech stack display.
+- **Work Section**: Showcases previous work and projects.
+- **Experience Section**: Details about professional experience.
+- **Sidebar Navigation**: Easy navigation between different sections.
+
+
+## Usage
+
+- **Home Page**: Displays the hero section with an introduction and tech stack.
+- **Work Page**: Navigate to `/work` to see the work section.
+- **Experience Page**: Navigate to `/experience` to see the experience section.
+
+## Technologies Used
+
+- **React**: JavaScript library for building user interfaces.
+- **Vite**: Next generation frontend tooling.
+- **React Router**: Declarative routing for React.
+- **Tailwind CSS**: Utility-first CSS framework.
+
+## Available Scripts
+
+In the project directory, you can run:
+
+- `npm run dev`: Runs the app in development mode.
+- `npm run build`: Builds the app for production.
+- `npm run serve`: Serves the production build locally.
+
+## License
+
+This project is licensed under the MIT License.
