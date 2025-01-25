@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HeroSection from "./components/HeroSection";
 import WorkSection from "./components/WorkSection";
 import Sidebar from "./components/Sidebar";
+import Experience from './components/Experience';
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
           <Routes>
             <Route path="/" element={<HeroSection />} />
             <Route path="/work" element={<WorkSection />} />
+            <Route path="/experience" element={<Experience />} />
           </Routes>
         </main>
       </div>
