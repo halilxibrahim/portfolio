@@ -116,9 +116,11 @@ const HeroSection = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 mt-6 lg:mt-8 w-full sm:w-auto px-4">
+        <a href="mailto:halil.kamaci@icloud.com">
           <button className="w-full sm:w-auto px-6 py-3 text-white bg-blue-600 rounded-lg hover:bg-blue-700">
             Contact Me
           </button>
+        </a>
           <button 
             className="w-full sm:w-auto px-6 py-3 text-blue-600 bg-blue-100 rounded-lg hover:bg-blue-200 mt-2 sm:mt-0"
             onClick={() => navigate('/work')}

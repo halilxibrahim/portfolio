@@ -52,6 +52,16 @@ const Experience = () => {
         "Developed scalable e-commerce platforms, admin panels, and dashboards for data visualization.",
         "Contributed to frontend solutions for top brands like Beymen, Allianz, Unilever, and Unishop."
       ]
+    },
+    {
+      title: "Software Developer Intern",
+      company: "Republic Of Turkey Ministry of Industry and Technology",
+      location: "Ankara, Türkiye",
+      period: "July 2020 - Aug 2020",
+      achievements: [
+       "During my internship as a Software Developer, I successfully tackled algorithmic questions and resolved various challenges related to web applications.",
+       "I leveraged my problem-solving skills to provide efficient and effective solutions."
+      ]
     }
   ];
 
@@ -88,7 +98,6 @@ const Experience = () => {
                 <ul className="mt-4 space-y-2">
                   {exp.achievements.map((achievement, i) => (
                     <li key={i} className="flex items-start text-gray-600 text-sm">
-                      <span className="mr-2 mt-1.5">•</span>
                       {achievement}
                     </li>
                   ))}

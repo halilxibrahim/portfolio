@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion';
-import { image } from 'framer-motion/client';
 import { useState } from 'react';
 
 const WorkSection = () => {
@@ -8,90 +7,120 @@ const WorkSection = () => {
   const webProjects = [
     {
       id: 1,
-      title: "Project 1",
-      description: "Description for Project 1",
-      image: "https://res.cloudinary.com/read-cv/image/upload/c_limit,h_2048,w_2048/v1/1/profileItems/8wrjlVDUCib3EgtxdbQ5xyEBsm12/newProfileItem/6b2303f5-70ce-4290-8c6e-28cb22dd2181.jpg?_a=DATAdtAAZAA0",
+      title: "Calender Banket App",
+      description: "Next.js and Tailwind CSS",
+      image: "/src/assets/calender.png",
       link: "#"
     },
     {
       id: 2,
-      title: "Project 2",
-      description: "Description for Project 2",
-      image: "https://res.cloudinary.com/read-cv/image/upload/c_limit,h_2048,w_2048/v1/1/profileItems/8wrjlVDUCib3EgtxdbQ5xyEBsm12/newProfileItem/3e91f49f-d962-4e2b-98da-716d422ac0cb.png?_a=DATAdtAAZAA0",
-      link: "#"
+      title: "CoDeriApp Website",
+      description: "Next.js and Tailwind CSS",
+      image: "/src/assets/coder.png",
+      link: "https://coderiapp.com/"
     },
     {
       id: 3,
-      title: "Project 3",
-      description: "Description for Project 3",
-      image: "https://res.cloudinary.com/read-cv/image/upload/c_limit,h_2048,w_2048/v1/1/profileItems/8wrjlVDUCib3EgtxdbQ5xyEBsm12/newProfileItem/cd217358-0878-4118-8a50-0835dc95ce42.jpg?_a=DATAdtAAZAA0",
+      title: "CoDeriApp Reservation App",
+      description: "React.js and Tailwind CSS, Django",
+      image: "/src/assets/reservation.jpeg",
       link: "#"
     },
     {
       id: 4,
-      title: "Project 4",
-      description: "Description for Project 4",
-      image: "https://res.cloudinary.com/read-cv/image/upload/c_limit,h_2048,w_2048/v1/1/profileItems/8wrjlVDUCib3EgtxdbQ5xyEBsm12/newProfileItem/8412c1b9-d030-482d-a6a9-53c4c622712b.jpg?_a=DATAdtAAZAA0",
-      link: "#"
+      title: "Ekip.co Website",
+      description: "Next.js and Tailwind CSS",
+      image: "https://res.cloudinary.com/read-cv/image/upload/c_limit,h_2048,w_2048/v1/1/profileItems/8wrjlVDUCib3EgtxdbQ5xyEBsm12/newProfileItem/6b2303f5-70ce-4290-8c6e-28cb22dd2181.jpg?_a=DATAdtAAZAA0",
+      link: "https://ekip.co" // Updated link
     },
     {
       id: 5,
-      title: "Project 5",
-      description: "Description for Project 5",
+      title: "Yilmazlar Construction Group Website",
+      description: "React.js and Tailwind CSS",
+      image: "https://res.cloudinary.com/read-cv/image/upload/c_limit,h_2048,w_2048/v1/1/profileItems/8wrjlVDUCib3EgtxdbQ5xyEBsm12/newProfileItem/3e91f49f-d962-4e2b-98da-716d422ac0cb.png?_a=DATAdtAAZAA0",
+      link: "https://yilmazlarconstructiongroup.com/"
+    },
+    {
+      id: 6,
+      title: "Yavuz Indestruies Website",
+      description: "HTML, CSS, and JavaScript",
+      image: "https://res.cloudinary.com/read-cv/image/upload/c_limit,h_2048,w_2048/v1/1/profileItems/8wrjlVDUCib3EgtxdbQ5xyEBsm12/newProfileItem/cd217358-0878-4118-8a50-0835dc95ce42.jpg?_a=DATAdtAAZAA0",
+      link: "#"
+    },
+    {
+      id: 7,
+      title: "Selcup Website",
+      description: "React.js and Node.js",
+      image: "https://res.cloudinary.com/read-cv/image/upload/c_limit,h_2048,w_2048/v1/1/profileItems/8wrjlVDUCib3EgtxdbQ5xyEBsm12/newProfileItem/8412c1b9-d030-482d-a6a9-53c4c622712b.jpg?_a=DATAdtAAZAA0",
+      link: "https://www.selcup.com.tr/"
+    },
+    {
+      id: 8,
+      title: "Dortgen VIP Website",
+      description: "HTML, CSS, and JavaScript",
       image: "https://res.cloudinary.com/read-cv/image/upload/c_limit,h_2048,w_2048/v1/1/profileItems/8wrjlVDUCib3EgtxdbQ5xyEBsm12/newProfileItem/95559ec8-c422-4575-ac22-8a78f5c1fe61.jpg?_a=DATAdtAAZAA0",
       link: "#"
     },
     {
-      id: 6,
-      title: "Project 6",
-      description: "Description for Project 6",
+      id: 9,
+      title: "Orego",
+      description: "React.js and Tailwind CSS Node.js",
       image: "https://res.cloudinary.com/read-cv/image/upload/c_limit,h_2048,w_2048/v1/1/profileItems/8wrjlVDUCib3EgtxdbQ5xyEBsm12/newProfileItem/8499377d-b091-4022-b711-a93bc225a244.png?_a=DATAdtAAZAA0",
-      link: "#"
+      link: "https://orego.com.tr/"
     },
     {
-      id: 7,
-      title: "Project 7",
-      description: "Description for Project 7",
+      id: 10,
+      title: "Bul Drive and Mail App",
+      description: "Vue.js, Node.js, and Tailwind CSS",
       image: "https://res.cloudinary.com/read-cv/image/upload/c_limit,h_2048,w_2048/v1/1/profileItems/8wrjlVDUCib3EgtxdbQ5xyEBsm12/newProfileItem/30fdf49d-d621-4b26-9558-decf1c226e67.jpg?_a=DATAdtAAZAA0",
-      link: "#"
+      link: "http://bul.com.tr/"
     },
     {
-      id: 7,
-      title: "Project 7",
-      description: "Description for Project 7",
+      id: 11,
+      title: "Beymen Dashboard",
+      description: "React.js, Node.js, and Tailwind CSS",
       image:"https://res.cloudinary.com/read-cv/image/upload/c_limit,h_2048,w_2048/v1/1/profileItems/8wrjlVDUCib3EgtxdbQ5xyEBsm12/newProfileItem/d546b14c-ddf9-403a-8724-e9c31151bc2a.png?_a=DATAdtAAZAA0",
-      link: "#"
-    }
+      link: "https://partner.beymen.com/"
+    },
+    
+
   ];
   const mobileProjects = [
     {
-      id: 8,
-      title: "Project 8",
-      description: "Description for Project 8",
+      id: 12,
+      title: "Book Keep App",
+      description: "React Native(Side Project)",
+      image: "/src/assets/Book-keep.png",
+      link: "#"
+    },
+    {
+      id: 14,
+      title: "Image AI App",
+      description: "React Native",
       image: "https://res.cloudinary.com/read-cv/image/upload/c_limit,h_2048,w_2048/v1/1/profileItems/8wrjlVDUCib3EgtxdbQ5xyEBsm12/newProfileItem/6ed5f845-d960-4d69-9e14-dc563b95122b.png?_a=DATAdtAAZAA0",
       link: "#"
     },
     {
-      id: 9,
-      title: "Project 9",
-      description: "Description for Project 8",
+      id: 14,
+      title: "DietMaster App",
+      description: "React Native",
       image: "https://res.cloudinary.com/read-cv/image/upload/c_limit,h_2048,w_2048/v1/1/profileItems/8wrjlVDUCib3EgtxdbQ5xyEBsm12/wmlSnBunqwWZwHyGdRyN/62efbb32-4389-401f-a363-d693ce6eef69.png?_a=DATAdtAAZAA0",
       link: "#"
     },
     {
-      id: 10,
-      title: "Project 9",
-      description: "Description for Project 8",
+      id: 15,
+      title: "Pets Health App",
+      description: "React Native",
       image:"https://res.cloudinary.com/read-cv/image/upload/c_limit,h_2048,w_2048/v1/1/profileItems/8wrjlVDUCib3EgtxdbQ5xyEBsm12/newProfileItem/3d3d7490-99fb-4f17-a343-2a9150bb7b0f.png?_a=DATAdtAAZAA0",
       link: "#"
     },
     {
-      id: 11,
-      title: "Project 9",
-      description: "Description for Project 8",
+      id: 16,
+      title: "Aviatior App",
+      description: "React Native",
       image:"https://res.cloudinary.com/read-cv/image/upload/c_limit,h_2048,w_2048/v1/1/profileItems/8wrjlVDUCib3EgtxdbQ5xyEBsm12/newProfileItem/15671d3d-7e03-471e-af03-6066a3cdd043.png?_a=DATAdtAAZAA0",
       link: "#"
-    }
+    },
   ];
   const container = {
     hidden: { opacity: 0 },
