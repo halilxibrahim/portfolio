@@ -42,7 +42,7 @@ const WorkSection = () => {
     },
     {
       id: 6,
-      title: "Yavuz Indestruies Website",
+      title: "Yavuz Industries Website",
       description: "HTML, CSS, and JavaScript",
       image: "https://res.cloudinary.com/read-cv/image/upload/c_limit,h_2048,w_2048/v1/1/profileItems/8wrjlVDUCib3EgtxdbQ5xyEBsm12/newProfileItem/cd217358-0878-4118-8a50-0835dc95ce42.jpg?_a=DATAdtAAZAA0",
       link: "#"
