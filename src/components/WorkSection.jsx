@@ -9,21 +9,21 @@ const WorkSection = () => {
       id: 1,
       title: "Calender Banket App",
       description: "Next.js and Tailwind CSS",
-      image: "/src/assets/calender.png",
+      image: "https://github-production-user-asset-6210df.s3.amazonaws.com/54751699/406739307-e7944379-a625-4a0e-9fc9-a0bb293c0f0f.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250126%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250126T144012Z&X-Amz-Expires=300&X-Amz-Signature=b900a9fda09c881756a9a31debd3bea4db5f174585dfe50e62ded68230d1e5ae&X-Amz-SignedHeaders=host",
       link: "#"
     },
     {
       id: 2,
       title: "CoDeriApp Website",
       description: "Next.js and Tailwind CSS",
-      image: "/src/assets/coder.png",
+      image: "https://github-production-user-asset-6210df.s3.amazonaws.com/54751699/406739308-f28fe6d2-d581-4509-bdcb-1a2ec4bd4cde.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250126%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250126T144034Z&X-Amz-Expires=300&X-Amz-Signature=34a03fc517ebda7c35376a09cde41b61d761fbc93167c38fa47714c5409f542e&X-Amz-SignedHeaders=host",
       link: "https://coderiapp.com/"
     },
     {
       id: 3,
       title: "CoDeriApp Reservation App",
       description: "React.js and Tailwind CSS, Django",
-      image: "/src/assets/reservation.jpeg",
+      image: "https://github-production-user-asset-6210df.s3.amazonaws.com/54751699/406739314-f2741c3e-4119-450f-b5d6-b463c690e94a.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250126%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250126T144044Z&X-Amz-Expires=300&X-Amz-Signature=bf784617a627c454682ade48179e83c6a0f872ad4524f305ed1c007a82ac00d5&X-Amz-SignedHeaders=host",
       link: "#"
     },
     {
@@ -90,7 +90,7 @@ const WorkSection = () => {
       id: 12,
       title: "Book Keep App",
       description: "React Native(Side Project)",
-      image: "/src/assets/Book-keep.png",
+      image: "https://github-production-user-asset-6210df.s3.amazonaws.com/54751699/406739309-07b88fe6-b581-489d-9f8e-e9992606c75b.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250126%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250126T144024Z&X-Amz-Expires=300&X-Amz-Signature=64baf98513dc0f903a1ecb02eef17551d7c320c6fb8e299dfda3a588cf7922b4&X-Amz-SignedHeaders=host",
       link: "#"
     },
     {
