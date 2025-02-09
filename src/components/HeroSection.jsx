@@ -40,6 +40,9 @@ const HeroSection = () => {
           <span className="px-3 py-1 text-xs font-medium text-emerald-600 bg-emerald-50 rounded-full hover:bg-emerald-100 transition-colors">
             TypeScript
           </span>
+          <span className="px-3 py-1 text-xs font-medium text-emerald-600 bg-emerald-50 rounded-full hover:bg-emerald-100 transition-colors">
+            Python
+          </span>
           
           {/* Frontend */}
           <span className=" px-3 py-1 text-xs font-medium text-blue-600 bg-blue-50 rounded-full hover:bg-blue-100 transition-colors">
