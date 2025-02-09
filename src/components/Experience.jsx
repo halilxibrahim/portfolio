@@ -6,7 +6,7 @@ const Experience = () => {
       location: "Ankara, Türkiye",
       period: "September 2024 - January 2025",
       achievements: [
-        "Led the end-to-end development of a SaaS product, scaling to 10K+ active users within React.js, NestJS(Node.js) and AWS.",
+        "Led the end-to-end development of a SaaS product, scaling to 10K+ active users within React.js,Node.js and AWS.",
         "Created high-performance APIs, reducing request latency by 35%."
       ]
     },

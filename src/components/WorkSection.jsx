@@ -22,7 +22,7 @@ const WorkSection = () => {
     {
       id: 3,
       title: "CoDeriApp Reservation App",
-      description: "React.js and Tailwind CSS, NestJS",
+      description: "React.js and Tailwind CSS, Node.js",
       image:"https://i.imgur.com/01NQKSv.jpeg",
       link: "#"
     },

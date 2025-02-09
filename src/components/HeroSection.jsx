@@ -56,9 +56,6 @@ const HeroSection = () => {
           <span className=" px-3 py-1 text-xs font-medium text-purple-600 bg-purple-50 rounded-full hover:bg-purple-100 transition-colors">
             Node.js
           </span>
-          <span className=" px-3 py-1 text-xs font-medium text-purple-600 bg-purple-50 rounded-full hover:bg-purple-100 transition-colors">
-            Nest.js
-          </span>
           
           {/* APIs & Data */}
           <span className="px-3 py-1 text-xs font-medium text-indigo-600 bg-indigo-50 rounded-full hover:bg-indigo-100 transition-colors">
