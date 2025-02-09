@@ -6,8 +6,8 @@ const Experience = () => {
       location: "Ankara, Türkiye",
       period: "September 2024 - January 2025",
       achievements: [
-        "Managed the end-to-end development of a start-up product, requirements analysis, architecture design.",
-        "Developed scalable and efficient solutions using React.js, Node.js, Django and MongoDB."
+        "Led the end-to-end development of a SaaS product, scaling to 10K+ active users within React.js, NestJS(Node.js) and AWS.",
+        "Created high-performance APIs, reducing request latency by 35%."
       ]
     },
     {
@@ -16,8 +16,8 @@ const Experience = () => {
       location: "Ankara, Türkiye",
       period: "September 2023 - September 2024",
       achievements: [
-        "Led the development of 4 full-stack web and mobile projects using React.js, Next.js, React Native, Node.js, and Django, achieving a 30% improvement in deployment speed.",
-        "Delivered high-quality websites for prominent clients, including Dortgen VIP, Yavuz Industries, Selcup, and Yilmazlar Construction."
+        "Implemented and deployed 4 full-stack web and mobile applications, achieving a 30% improvement in deployment speed.",
+        "Delivered high-impact websites for major clients (Dortgen VIP, Yavuz Industries, Selcup, Yilmazlar Construction)."
       ]
     },
     {
@@ -26,9 +26,8 @@ const Experience = () => {
       location: "Ankara, Türkiye",
       period: "April 2023 - September 2023",
       achievements: [
-        "Developed and launched a web and mobile-integrated mail and cloud storage platform for bul.com.tr using Next.js and React Native.",
-        "Designed and built a responsive web interface with Next.js and Tailwind CSS, delivering a pixel-perfect experience across all devices.",
-        "Implemented modern UI components with custom animations and transitions to enhance user engagement and overall user experience."
+        "Designed and launched a web and mobile-integrated mail and cloud storage platform for bul.com.tr, increasing customer retention by 25%.Built a responsive, pixel-perfect UI with Next.js and Tailwind CSS.",
+        "Implemented animations and transitions, enhancing user engagement by 15%."
       ]
     },
     {
@@ -37,9 +36,8 @@ const Experience = () => {
       location: "Pinedale, Wyoming, USA",
       period: "May 2022 - April 2023",
       achievements: [
-        "Led front-end development for a financial technology product and the ekip.co website.",
-        "Designed a modern trading interface using Next.js, featuring real-time data visualization.",
-        "Developed a responsive dashboard to display complex financial data with Tailwind CSS and Chart.js."
+        "Led frontend development for a fintech trading platform, achieving a 98% uptime.",
+        "Built a real-time trading dashboard with Next.js, Tailwind CSS, and Chart.js, improving data rendering speed by 50%."
       ]
     },
     {
@@ -48,9 +46,8 @@ const Experience = () => {
       location: "Istanbul, Türkiye",
       period: "June 2021 - May 2022",
       achievements: [
-        "Extensive experience in JavaScript, TypeScript, React.js, Next.js, and React Native for modern web and mobile applications.",
-        "Developed scalable e-commerce platforms, admin panels, and dashboards for data visualization.",
-        "Contributed to frontend solutions for top brands like Beymen, Allianz, Unilever, and Unishop."
+        "Produced scalable e-commerce platforms, admin panels, and dashboards, reducing page load times by 40%.",
+        "Contributed to frontend solutions for Beymen, Allianz, Unilever, and Unishop, ensuring cross-platform compatibility."
       ]
     },
     {

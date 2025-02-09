@@ -40,9 +40,6 @@ const HeroSection = () => {
           <span className="px-3 py-1 text-xs font-medium text-emerald-600 bg-emerald-50 rounded-full hover:bg-emerald-100 transition-colors">
             TypeScript
           </span>
-          <span className="px-3 py-1 text-xs font-medium text-emerald-600 bg-emerald-50 rounded-full hover:bg-emerald-100 transition-colors">
-            Python
-          </span>
           
           {/* Frontend */}
           <span className=" px-3 py-1 text-xs font-medium text-blue-600 bg-blue-50 rounded-full hover:bg-blue-100 transition-colors">
@@ -50,9 +47,6 @@ const HeroSection = () => {
           </span>
           <span className=" px-3 py-1 text-xs font-medium text-blue-600 bg-blue-50 rounded-full hover:bg-blue-100 transition-colors">
             Next.js
-          </span>
-          <span className=" px-3 py-1 text-xs font-medium text-blue-600 bg-blue-50 rounded-full hover:bg-blue-100 transition-colors">
-            Vue.js
           </span>
           <span className="px-3 py-1 text-xs font-medium text-blue-600 bg-blue-50 rounded-full hover:bg-blue-100 transition-colors">
             React Native
@@ -63,13 +57,7 @@ const HeroSection = () => {
             Node.js
           </span>
           <span className=" px-3 py-1 text-xs font-medium text-purple-600 bg-purple-50 rounded-full hover:bg-purple-100 transition-colors">
-            Express.js
-          </span>
-          <span className=" px-3 py-1 text-xs font-medium text-purple-600 bg-purple-50 rounded-full hover:bg-purple-100 transition-colors">
             Nest.js
-          </span>
-          <span className=" px-3 py-1 text-xs font-medium text-purple-600 bg-purple-50 rounded-full hover:bg-purple-100 transition-colors">
-            Django
           </span>
           
           {/* APIs & Data */}
@@ -98,12 +86,12 @@ const HeroSection = () => {
             AWS
           </span>
           <span className="px-3 py-1 text-xs font-medium text-rose-600 bg-rose-50 rounded-full hover:bg-rose-100 transition-colors">
-            OpenAI / HuggingFace / Anthropic / DeepSeek APIs
+            OpenAI / HuggingFace / Anthropic / DeepSeek, LLM APIs
           </span>
         </div>
 
         <h1 className="slide-element mt-4 lg:mt-8 text-xl sm:text-xl lg:text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-emerald-500 leading-tight px-4 animate-pulse">
-          Hi, I m Halil ibrahim! with 3+ years of experience, I specialize in creating modern web and mobile applications using JavaScript/TypeScript and Python. 
+          Hi, I m Halil ibrahim! with 3+ years of experience, I specialize in creating modern web and mobile applications. 
         </h1>
         
         <p className="slide-element mt-4 lg:mt-6 text-base sm:text-lg text-gray-700 px-6 leading-relaxed 

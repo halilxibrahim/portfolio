@@ -22,7 +22,7 @@ const WorkSection = () => {
     {
       id: 3,
       title: "CoDeriApp Reservation App",
-      description: "React.js and Tailwind CSS, Django",
+      description: "React.js and Tailwind CSS, NestJS",
       image:"https://i.imgur.com/01NQKSv.jpeg",
       link: "#"
     },
@@ -71,7 +71,7 @@ const WorkSection = () => {
     {
       id: 10,
       title: "Bul Drive and Mail App",
-      description: "Vue.js, Node.js, and Tailwind CSS",
+      description: "React.js, Node.js, and Tailwind CSS",
       image: "https://res.cloudinary.com/read-cv/image/upload/c_limit,h_2048,w_2048/v1/1/profileItems/8wrjlVDUCib3EgtxdbQ5xyEBsm12/newProfileItem/30fdf49d-d621-4b26-9558-decf1c226e67.jpg?_a=DATAdtAAZAA0",
       link: "http://bul.com.tr/"
     },
