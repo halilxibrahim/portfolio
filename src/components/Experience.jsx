@@ -3,7 +3,7 @@ const Experience = () => {
     
     {
       title: "Software Developer",
-      company: "Kam Software",
+      company: "Freelance",
       location: "Ankara, Türkiye",
       period: "Mar 2024 - Feb 2025",
       achievements: [
