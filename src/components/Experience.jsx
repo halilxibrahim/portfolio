@@ -1,50 +1,41 @@
 const Experience = () => {
   const experiences = [
+    
     {
-      title: "Full Stack Developer",
-      company: "Stealth Startup",
-      location: "Ankara, Türkiye",
-      period: "September 2024 - January 2025",
-      achievements: [
-        "Led the end-to-end development of a SaaS product, scaling to 10K+ active users within React.js,Node.js and AWS.",
-        "Created high-performance APIs, reducing request latency by 35%."
-      ]
-    },
-    {
-      title: "Full Stack Developer",
+      title: "Software Developer",
       company: "Kam Software",
       location: "Ankara, Türkiye",
-      period: "September 2023 - September 2024",
+      period: "Mar 2024 - Feb 2025",
       achievements: [
-        "Implemented and deployed 4 full-stack web and mobile applications, achieving a 30% improvement in deployment speed.",
+        "Implemented and deployed full-stack web and mobile applications, achieving a 30% improvement in deployment speed.",
         "Delivered high-impact websites for major clients (Dortgen VIP, Yavuz Industries, Selcup, Yilmazlar Construction)."
       ]
     },
     {
-      title: "Front End Developer",
+      title: "Software Developer",
       company: "Arma Group Holding",
       location: "Ankara, Türkiye",
-      period: "April 2023 - September 2023",
+      period: "Apr 2023 - Mar 2024",
       achievements: [
         "Designed and launched a web and mobile-integrated mail and cloud storage platform for bul.com.tr, increasing customer retention by 25%.Built a responsive, pixel-perfect UI with Next.js and Tailwind CSS.",
         "Implemented animations and transitions, enhancing user engagement by 15%."
       ]
     },
     {
-      title: "Front End Developer",
+      title: "Software Developer",
       company: "Ekip.co",
       location: "Pinedale, Wyoming, USA",
-      period: "May 2022 - April 2023",
+      period: "May 2022 - Apr 2023",
       achievements: [
         "Led frontend development for a fintech trading platform, achieving a 98% uptime.",
         "Built a real-time trading dashboard with Next.js, Tailwind CSS, and Chart.js, improving data rendering speed by 50%."
       ]
     },
     {
-      title: "Front End Developer",
+      title: "Software Developer",
       company: "Appcent",
       location: "Istanbul, Türkiye",
-      period: "June 2021 - May 2022",
+      period: "Jun 2021 - May 2022",
       achievements: [
         "Produced scalable e-commerce platforms, admin panels, and dashboards, reducing page load times by 40%.",
         "Contributed to frontend solutions for Beymen, Allianz, Unilever, and Unishop, ensuring cross-platform compatibility."
