@@ -94,13 +94,18 @@ const HeroSection = () => {
           Hi, I m Halil ibrahim! with 3+ years of experience, I specialize in creating modern web and mobile applications. 
         </h1>
         
-        <p className="slide-element mt-4 lg:mt-6 text-base sm:text-lg text-gray-700 px-6 leading-relaxed 
+        <p className="slide-element mt-4 lg:mt-6 text-base sm:text-lg text-gray-700 px-8 
           hover:scale-105 transition-all duration-300 
-          backdrop-blur-lg bg-white/90 rounded-xl py-3 
-          border-2 border-gray-200/50 shadow-lg 
-          hover:border-emerald-500/50 hover:shadow-emerald-100">
-          Passionate about building AI-powered applications and innovative solutions.
-          AI/ML, Robotics & Aviation Enthusiast
+          bg-gradient-to-r from-white/90 to-gray-50/90 backdrop-blur-lg 
+          rounded-2xl py-4 
+          border-2 border-transparent
+          shadow-xl hover:shadow-2xl
+          hover:border-emerald-500/30
+          relative
+          before:absolute before:inset-0 before:bg-gradient-to-r before:from-blue-500/10 before:to-emerald-500/10 before:rounded-2xl before:opacity-0 hover:before:opacity-100 before:transition-opacity
+          cursor-pointer">
+          Software Developer | React, Next.js, React Native, Node.js | Scalable Apps & AI-Driven Solutions | Hackathon Winner | Open-Source Contributor
+
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 mt-6 lg:mt-8 w-full sm:w-auto px-4">
