@@ -19,7 +19,7 @@ const HeroSection = () => {
       <div className="max-w-2xl flex flex-col items-center text-center">
         <div className="w-32 h-32 sm:w-40 sm:h-40 lg:w-48 lg:h-48 rounded-full bg-gray-200 overflow-hidden mb-4 lg:mb-8">
           <img 
-            src="https://media.licdn.com/dms/image/v2/D4D03AQFT3_2ciDLjJA/profile-displayphoto-shrink_800_800/B4DZN85RDIHoAc-/0/1732967207736?e=1743033600&v=beta&t=3sk_wsG_MQtNWw1m5Bd8cmhTfDKS-0TNglfQKfcxk_g"
+            src="https://media.licdn.com/dms/image/v2/D4D03AQFT3_2ciDLjJA/profile-displayphoto-shrink_800_800/B4DZN85RDIHoAc-/0/1732967207736?e=1749686400&v=beta&t=GAfDiHR_LSTIkblSKAG_XQYl0ZDkgH4yyvOIpEzYJ-w"
             alt="Profile"
             className="w-full h-full object-cover"
           />

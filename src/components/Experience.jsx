@@ -2,43 +2,48 @@ const Experience = () => {
   const experiences = [
     
     {
-      title: "Software Developer",
+      title: "Full Stack Developer",
       company: "Freelance",
       location: "Ankara, Türkiye",
-      period: "Mar 2024 - Feb 2025",
+      period: "Mar 2024 - Mar 2025",
       achievements: [
-        "Implemented and deployed full-stack web and mobile applications, achieving a 30% improvement in deployment speed.",
-        "Delivered high-impact websites for major clients (Dortgen VIP, Yavuz Industries, Selcup, Yilmazlar Construction)."
+        "Developed Enterprise SaaS Applications using Next.js, React.js, React Native, Tailwind CSS, Node.js (Express.js), and MongoDB.",
+        <span key="coderi"><span className="font-bold">For CoDeriApp Company:</span> Created a drag-and-drop calendar-based scheduling app, an SEO-optimized landing page with 40% faster loading speed, and a real-time booking system with secure authentication.</span>,
+        <span key="kam"><span className="font-bold">For Kam Software Company:</span> Delivered full-stack web and mobile applications for clients including Dortgen VIP, Yavuz Industries, Selcup, and Yilmazlar Construction, achieving a 30% improvement in deployment speed and streamlined processes.</span>
       ]
     },
     {
-      title: "Software Developer",
+      title: "Frontend Developer",
       company: "Arma Group Holding",
       location: "Ankara, Türkiye",
       period: "Apr 2023 - Mar 2024",
       achievements: [
-        "Designed and launched a web and mobile-integrated mail and cloud storage platform for bul.com.tr, increasing customer retention by 25%.Built a responsive, pixel-perfect UI with Next.js and Tailwind CSS.",
-        "Implemented animations and transitions, enhancing user engagement by 15%."
+        "Designed and launched bul.com.tr - a web and mobile-integrated mail and cloud storage platform using Next.js and Tailwind CSS, increasing customer retention by 25%.",
+        "Developed a responsive, pixel-perfect UI with Next.js and Tailwind CSS, ensuring a seamless user experience across all devices.",
+        "Implemented smooth animations and transitions, enhancing user engagement by 15%."
       ]
     },
     {
-      title: "Software Developer",
+      title: "Frontend Developer",
       company: "Ekip.co",
       location: "Pinedale, Wyoming, USA",
       period: "May 2022 - Apr 2023",
       achievements: [
-        "Led frontend development for a fintech trading platform, achieving a 98% uptime.",
-        "Built a real-time trading dashboard with Next.js, Tailwind CSS, and Chart.js, improving data rendering speed by 50%."
+        "Developed a real-time trading dashboard using Next.js, Tailwind CSS, and Chart.js, ensuring 98% uptime for seamless financial transactions.",
+        "Optimized data visualization and rendering, improving data processing speed by 50%.",
+        "Designed a responsive and intuitive UI, enhancing user experience and engagement."
       ]
     },
     {
-      title: "Software Developer",
+      title: "Frontend Developer",
       company: "Appcent",
       location: "Istanbul, Türkiye",
       period: "Jun 2021 - May 2022",
       achievements: [
-        "Produced scalable e-commerce platforms, admin panels, and dashboards, reducing page load times by 40%.",
-        "Contributed to frontend solutions for Beymen, Allianz, Unilever, and Unishop, ensuring cross-platform compatibility."
+        "Scalable E-Commerce & Admin Platforms using React.js, Next.js & Tailwind CSS",
+        "Developed scalable e-commerce platforms, admin panels, and dashboards, reducing page load times by 40%.",
+        "Built high-performance frontend solutions for Beymen, Allianz, Unilever, and Unishop, ensuring cross-platform compatibility.",
+        "Optimized UI components for faster interactions and improved accessibility."
       ]
     },
     {
